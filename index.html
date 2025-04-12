@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather Forecasting</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="header">
+            <div class="title">:THE WEATHER FORECASTING:</div>
+            <div class="date">2025-02-05 15:40 GMT</div>
+            <div class="theme-toggle">
+                <input type="checkbox" id="themeSwitch">
+                <label for="themeSwitch" class="toggle-btn"></label>
+            </div>
+            
+        </div>
+
+        <div class="location-search">
+            <input id="cityInput" type="text" placeholder="Kalaburagi, IN" value="Kalaburagi, IN" >
+            <button onclick="getWeather()">Search</button>
+        </div>
+
+        <div class="weather-container">
+            <div class="current-weather">
+                <div class="location" id="cityName">Kalaburagi, IN</div>
+                <div class="date-today" id="currentDate">Today 5 Feb</div>
+                <div class="temperature" id="currentTemp">27 °C</div>
+                <div class="description" id="weatherDescription">clear sky</div>
+                <div class="air-conditions">
+                    <div class="condition">
+                        <div class="label">Real Feel</div>
+                        <div class="value" id="realFeel">26 °C</div>
+                    </div>
+                    <div class="condition">
+                        <div class="label">Wind</div>
+                        <div class="value" id="windSpeed">1.97 m/s</div>
+                    </div>
+                    <div class="condition">
+                        <div class="label">Clouds</div>
+                        <div class="value">0%</div>
+                    </div>
+                    <div class="condition">
+                        <div class="label">Humidity</div>
+                        <div class="value" id="humidity">28%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forecast">
+                <div class="forecast-title">WEEKLY FORECAST</div>
+                <div class="forecast-days">
+                    </div>
+            </div>
+        </div>
+        <div class="hourly-forecast">
+            <div class="forecast-title">TODAY'S FORECAST</div>
+            <div class="hourly-slots">
+                </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
