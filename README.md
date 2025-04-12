@@ -4,6 +4,9 @@
 ## Overview
 This is a dynamic weather prediction website that fetches real-time weather data using a public API (e.g., OpenWeatherMap). The application is built with HTML, CSS, and JavaScript, offering a user-friendly interface and responsive design.
 
+Demo : https://remarkable-swan-906bea.netlify.app/
+
+
 ## Features
 - **Search Functionality**: Users can search for weather information by city name.
 - **Real-Time Weather Data**: Displays temperature, humidity, wind speed, and weather conditions.
